@@ -1,5 +1,7 @@
 mod tools;
-use tools::lexer::BasicLexer;
+mod basic;
+
+use basic::lexer::BasicLexer;
 use tools::lexer::Lexer;
 
 
